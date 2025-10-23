@@ -4,11 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB' crossorigin='anonymous'>
+  
   <title>Email List</title>
 </head>
-<body>
-  <h1>Email</h1>
-  <ol id="mail-list"></ol>
+
+<body class="container text-center">
+  <div class="bg-color salmon-text my-5">
+    <header class="py-4 border-bottom">
+      <h1>Random Email</h1>
+      <p>This page generates 10 random emali by contacting a server</p>
+    </header>
+    
+    <main class="py-4">
+      <ol id="mail-list" class="list-unstyled"></ol>
+    </main>
+  </div>
+  
+  
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="main.js"></script>
 </body>
