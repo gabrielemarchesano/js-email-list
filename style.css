@@ -1,10 +1,16 @@
 :root{
   --var-bg-color: #326273;
   --var-text-color: #E39774;
+  --var-body-color: #5C9EAD;
 }
 
 .bg-color{
   background-color: var(--var-bg-color);
+}
+
+.body-color{
+  background-color: var(--var-body-color);
+  color: #eeeeee;
 }
 
 .salmon-text{
