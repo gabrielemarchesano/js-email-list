@@ -16,3 +16,13 @@
 .salmon-text{
   color: var(--var-text-color);
 }
+
+.btn-reset{
+  background-color: #eeeeee;
+  color: var(--var-bg-color);
+  border: none;
+}
+.btn-reset:hover{
+ background-color: var(--var-bg-color); 
+ color: var(--var-text-color);
+}
